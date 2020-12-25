@@ -1,0 +1,104 @@
+body{
+	background-color: #EEF0F7;
+	overflow: hidden;
+	margin-top:-5%;
+	margin-bottom: -5%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.round{
+	background:linear-gradient(#FF99CB,#FCD376) ;
+	width: 82%;
+	margin-right: 9%;
+	margin-left: 9%;
+	height: 100%;
+	border-radius: 70%;
+	transform: rotate(-60deg);
+	justify-content:center;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	 
+}
+.cart{
+	width: 70%;
+	height: 50%;
+	background-color: #FFFFFF;
+	transform: rotate(60deg);
+}
+.remove-icon{
+	width: 40px;
+	height: 40px;
+	border-radius: 25px;
+	background-color: #FFFFFF;
+	float: right;
+	margin-right: -20px;
+	margin-top: -20px;
+	font-weight: bold;
+	justify-content:center;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+
+}
+
+.image-cart{
+	width: 42%;
+	height: 90%;
+	margin-top: 3%;
+	margin-left: 3%;
+	background-image: url(img/444cfcaa0da7f4813a0103e8cec5c3358b911449.png);
+	background-size: cover;
+	float: left;
+
+}
+
+.text-cart{
+	width: 50%;
+	height: 90%;
+	margin-top: 7%;
+	margin-left: 5%;
+	float: left;
+	font-weight: 100;
+	font-size: 16px;
+
+}
+
+.text-cart input{
+	width: 90%;
+	height: 10%;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	padding-left: 10px;
+}
+
+.text-cart button{
+	background:linear-gradient(#89C8FF,#6488FF) ;
+	width: 90%;
+	height: 10%;
+	border: none;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+	box-shadow: 0 1px #89C8FF;
+	border-radius: 6px;
+
+
+}
+.text-cart h2{
+	color:#1A2250;
+	font-weight: bold;
+}
+.text-cart p{
+	color: #1A2250;
+	font-weight:normal;
+}
+
+.text-cart p:last-child{
+	font-size: 12px;
+	margin-top: 5%;
+	margin-left: 30%;
+	font-weight:normal;
+	color: #1A2250;
+
+}
